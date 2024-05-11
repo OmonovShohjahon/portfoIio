@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header .container1 .btns {
+    gap: 25px;
+}
+.header{
+    padding-bottom: 65px;
+    color: rgb(155, 155, 155);
+}
+
+button {
+    background: rgba(63, 253, 200, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 15px 30px;
+    cursor: pointer;
+    color: whitesmoke;
+    font-family: "Teachers", sans-serif;
+    transition: 0.2s;
+    font-size: 30px;
+}
+button:hover{
+    box-shadow: 0 0 15px 0 white;
+    transform: translateY(10px);
+    /* transform: translateZ(100px); */
+}
+body {
+    background: rgb(19, 18, 27);
+    color: rgb(255, 255, 255);
+    font-family: "Golos Text", sans-serif;
+}
+
+.subtitle {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.info {
+    font-family: "Teachers", sans-serif;
+    font-size: 55px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.text {
+    text-align: center;
+    margin: 40px;
+    letter-spacing: 0.1px;
+    font-size: 17px;
+}
+
+.title {
+    color: aqua;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.title2 {
+    color: orange;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.title3 {
+    color: blue;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.title4 {
+    font-family: "Teachers", sans-serif;
+    color: rgb(255, 255, 103);
+}
+
+.title5 {
+    font-family: "Teachers", sans-serif;
+    color: greenyellow;
+}
+
+.title6 {
+    font-family: "Teachers", sans-serif;
+    color: rgb(0, 125, 125);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.container:hover {
+    box-shadow: 0 0 15px white;
+}
+
+.cards {
+    background: rgba(0, 124, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* margin-top: 100px; */
+    /* width: 400px;
+    height: 300px; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    flex-flow: row;
+    /* gap: 25px; */
+}
+
+.card .text p {
+    margin-top: 10px;
+    color: aqua;
+
+    font-family: "Teachers", sans-serif;
+}
+
+.card .icon {
+    /* width: 50px; */
+    /* height: 50px; */
+    font-size: 50px;
+    color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 25px;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.card2 .icon2 {
+    font-size: 50px;
+    color: greenyellow;
+}
+
+.card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    gap: 25px;
+    font-family: "Teachers", sans-serif;
+
+}
+
+.card3 .icon3 {
+    font-size: 50px;
+    color: rgb(0, 179, 255);
+    margin-left: 50px;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+.header .container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: row;
+}
+
+
+.container2 {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    /* border-radius: 30px; */
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    /* width: 700px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    text-align: center;
+    /* margin: 10px auto; */
+    cursor: pointer;
+    transition: 0.2s;
+}
+.container2 .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+i{
+    font-size: 30px;
+}
